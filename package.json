@@ -1,0 +1,20 @@
+{
+  "name": "practicamongo",
+  "version": "1.0.0",
+  "description": "practica con mongo",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Ricardo Elias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
